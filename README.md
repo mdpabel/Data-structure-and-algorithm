@@ -39,3 +39,20 @@
 2. https://leetcode.com/problems/min-stack/
 3. https://leetcode.com/problems/valid-parentheses
 4. https://www.hackerrank.com/challenges/balanced-brackets
+
+> ### Linked List
+
+1. https://www.hackerrank.com/challenges/insert-a-node-at-a-specific-position-in-a-linked-list/
+2. https://www.hackerrank.com/challenges/insert-a-node-into-a-sorted-doubly-linked-list/
+3. https://www.hackerrank.com/challenges/reverse-a-doubly-linked-list
+4. https://www.hackerrank.com/challenges/find-the-merge-point-of-two-joined-linked-lists/
+5. https://www.hackerrank.com/challenges/ctci-linked-list-cycle
+
+> ### Tree
+
+1. https://www.ideserve.co.in/learn/preorder-traversal-of-a-binary-tree
+2. https://www.ideserve.co.in/learn/inorder-traversal-of-a-binary-tree
+3. https://www.ideserve.co.in/learn/postorder-traversal-of-a-binary-tree
+4. https://www.ideserve.co.in/learn/binary-tree-level-order-traversal
+5. https://www.ideserve.co.in/learn/print-nodes-of-binary-tree-without-sibling
+6. https://www.ideserve.co.in/learn/print-all-root-to-leaf-paths-of-a-binary-tree
