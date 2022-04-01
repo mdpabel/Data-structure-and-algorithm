@@ -56,3 +56,10 @@
 4. https://www.ideserve.co.in/learn/binary-tree-level-order-traversal
 5. https://www.ideserve.co.in/learn/print-nodes-of-binary-tree-without-sibling
 6. https://www.ideserve.co.in/learn/print-all-root-to-leaf-paths-of-a-binary-tree
+
+> ### Math:
+
+#### prime number
+
+0. https://www.geeksforgeeks.org/prime-numbers/
+1. https://www.geeksforgeeks.org/sieve-of-eratosthenes/
