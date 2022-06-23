@@ -63,3 +63,7 @@
 
 0. https://www.geeksforgeeks.org/prime-numbers/
 1. https://www.geeksforgeeks.org/sieve-of-eratosthenes/
+
+### Prefix Sum
+
+0. https://usaco.guide/silver/prefix-sums?lang=cpp
