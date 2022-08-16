@@ -7,6 +7,7 @@ class MinHeap:
         self.heap = [0]
         self.heap[0] = -1
         self.front = 1
+        self.size = len(self.heap)
 
     def parent(self, idx):
         return idx // 2
@@ -24,16 +25,18 @@ class MinHeap:
         self.heap[idx1], self.heap[idx2] = self.heap[idx2], self.heap[idx1]
 
     def heapify(self, pos):
-        if not self.isLeaf(pos):
-            left = self.leftChild(pos)
-            right = self.rightChild(pos)
+        left = self.leftChild(pos)
+        right = self.rightChild(pos)
+        minIdx = pos
 
-            if self.heap[left] < self.heap[right]:
-                self.swap(pos, left)
-                self.heapify(left)
-            else:
-                self.swap(pos, right)
-                self.heapify(right)
+        if left < len(self.heap) and self.heap[left] < self.heap[pos]:
+            minIdx = left
+        if right < len(self.heap) and self.heap[right] < self.heap[minIdx]:
+            minIdx = right
+
+        if minIdx != pos:
+            self.swap(pos, minIdx)
+            self.heapify(minIdx)
 
     def insert(self, val):
         self.heap.append(val)
@@ -66,6 +69,7 @@ heap.insert(13)
 heap.insert(14)
 heap.insert(5)
 
+heap.remove()
 heap.remove()
 
 heap.printHeap()

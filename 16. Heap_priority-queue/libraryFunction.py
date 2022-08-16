@@ -13,5 +13,6 @@ heappush(heap, 14)
 heappush(heap, 5)
 
 heappop(heap)
+heappop(heap)
 
 print(heap)
