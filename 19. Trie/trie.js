@@ -29,7 +29,7 @@ class Trie {
       }
       root = root.children[char];
     }
-    return !!root.isLastNode;
+    return root.isLastNode;
   }
 }
 
